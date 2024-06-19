@@ -1,0 +1,271 @@
+
+body{
+    background-color: #1E202B;
+}
+#fr{
+
+    transition: all 1s ease;
+    visibility: 30%;
+}
+
+.bg-cohly{
+
+    background-color: #1E202B;
+}
+
+
+
+.search-term{
+
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  url(imgs/banner.png);
+    height: 45vh;
+}
+
+.loc{
+
+    background-color: #1E202B;
+    padding: 13px;
+    border:none;
+    outline: none;
+    border-radius: 30px;
+    caret-color: white;
+    color: white;
+
+}
+
+
+.bg-s2{
+    background-color:#262936;
+}
+
+.find-location {
+
+    width: 93%;
+}
+
+.navbar-nav a{
+    font-size: 13px;
+    padding: 2px 18px !important;
+    border: 2px solid transparent;
+    color: white;
+    transition: 0.5s ease;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.navbar-nav a:focus{
+
+    border: 1px dotted white;
+}
+
+.navbar-nav a:hover{
+
+    border: 2px solid #009ad8;
+    color: #009ad8;
+
+
+
+}
+
+.custom{
+
+    color:
+RGB(0, 154, 216)
+}
+
+#home{
+
+    padding: 2px 30px;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8;
+    transition: 0.3s ease;
+    font-weight: 400;
+
+}
+
+
+.bt {
+    position: absolute;
+    top:3px;
+    right: 3px;
+    bottom: -8px;
+    width: 100px;
+    height: 39px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: RGB(0, 154, 216);
+    color: white;
+    font-size: 13px;
+}
+
+.find-location input::placeholder{
+    font-size: 14px;
+}
+
+.forecast-container{
+
+    width: 92%;
+
+    
+}
+.forecast-table{
+
+    margin-top: -140px;
+    z-index: -2;
+}
+.forecast-container .forecast-today .location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+.forecast-header{
+
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+.weather-cont{
+    background-color: rgb(50, 53, 68);
+}
+
+.second{
+    background-color: #262936;
+}
+
+
+.num{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.location{
+    font-size: 18px;
+    font-weight: 400;
+}
+.status span{
+
+    padding-right: 14px;
+}
+.site-footer{
+
+    background-color: #262936;
+}
+.second .degree{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+footer{
+
+    background-color: #262936;
+    color: white;
+}
+
+.sub{
+
+    background-color: #1E202B;
+    padding: 13px;
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    caret-color: white;
+    color: white;
+}
+
+.sub-bt {
+
+    position: absolute;
+    top:3px;
+    /* right: 46px; */
+    right: 7%;
+    bottom: -8px;
+    width: 100px;
+    height: 39px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: RGB(0, 154, 216);
+    color: white;
+    font-size: 13px;
+}
+.sub{
+
+    width: 94%;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    transition: 0.5s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+.social-links i{
+
+    color: #009ad8;
+    transition: 0.3s ease;
+    font-size: 16px;
+}
+
+.social-links a:hover{
+
+    background-color: #009ad8;
+
+}
+
+.social-links a:hover i{
+    color: white;
+}
+
+.bottom-p{
+
+    font-size: 14px;
+}
+
+footer input::placeholder{
+    font-size: 14px;
+}
+
+
+.navbar-toggler {
+    font-size: 13px;
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    transition: all ease .2s ;
+}
+
+.navbar-toggler:hover{
+    border: 2px solid ;
+    border-radius: 40%;
+    border-color: #009ad8;
+    color: #009ad8;
+
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    /* border: none; */
+}
